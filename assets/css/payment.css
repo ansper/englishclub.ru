@@ -1,0 +1,51 @@
+/* ++++ IMPORT ++++ */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.main {
+    margin-bottom: 4.375rem;
+}
+
+.main h2 {
+    margin-bottom: 2rem;
+}
+
+.main h3 {
+    font-size: 1.875rem;
+    color: #232323;
+    font-weight: bold;
+    font-family: Montserrat;
+    line-height: 1.5;
+}
+.main p {
+    font-size: 1rem;
+    color: #232323;
+    font-weight: 500;
+    font-family: Montserrat;
+    line-height: 1.5;
+}
+
+.main b {
+    font-weight: bold;
+    font-size: 1rem;
+    color: #232323;
+    font-family: Montserrat;
+    line-height: 1.5;
+}
+
+.main ul li {
+    list-style: disc;
+    font-size: 1rem;
+    color: #232323;
+    font-family: Montserrat;
+    line-height: 1.5;
+    font-weight: 500;
+}
+
+.main ol li {
+    list-style: decimal;
+    font-size: 1rem;
+    color: #232323;
+    font-family: Montserrat;
+    line-height: 1.5;
+    font-weight: 500;
+}

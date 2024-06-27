@@ -1,0 +1,148 @@
+/* ++++ IMPORT ++++ */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.reviews__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+
+.reviews__header button {
+    padding: .75rem 1rem;
+    color: #9E1430;
+    border: 1px solid #9E1430;
+    background: none;
+    border-radius: .5rem;
+    font-family: Montserrat;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.reviews__block {
+    padding: 40px;
+    background: #EFEFFF;
+    border-radius: 10px;
+}
+
+.reviews__block {
+    margin-bottom: 2rem;
+}
+
+/* Стили для модального окна */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+}
+  
+.modal-content {
+    background-color: #FFFFFF;
+    max-width: 40rem;
+    max-height: 45rem;
+    margin: 15% auto;
+    padding: 3.75rem;
+    border: 1px solid #585858;
+    width: 80%;
+}
+
+.modal-content h3 {
+    font-size: 2rem;
+    font-family: Montserrat;
+    margin-bottom: 1.875rem;
+}
+  
+#feedbackForm>label {
+    font-size: 1.5rem;
+    font-family: Montserrat;
+    line-height: 1.5;
+}
+
+#feedbackForm>input {
+    padding: 10px;
+    width: 100%;
+    font-size: 1.5rem;
+    font-family: Montserrat;
+    border: 3px solid #9E1430;
+    border-radius: .5rem;
+}
+
+#name {
+    margin-bottom: 1rem;
+}
+
+#review {
+    padding: 10px;
+    width: 100%;
+    font-size: 1.5rem;
+    font-family: Montserrat;
+    border: 3px solid #9E1430;
+    border-radius: .5rem;
+}
+
+#feedbackForm input[type='submit'] {
+    margin: 3rem 0;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    font-family: Montserrat;
+    border: 3px solid #9E1430;
+    border-radius: .5rem;
+    background: none;
+}
+
+.submit {
+    display: flex;
+    justify-content: right;
+}
+
+.close {
+    color: #585858;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+  
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+  
+/* Стили для звездочек */
+input[type="radio"] {
+    display: none;
+}
+  
+#rating label {
+    cursor: pointer;
+    display: inline-block;
+    color: #BDBDBD;
+    font-size: 2rem;
+}
+  
+#rating label:before {
+    content: "\2605";
+    margin-right: 5px;
+}
+  
+input[type="radio"]:checked ~ label:before {
+    content: "\2605";
+    color: #9E1430;
+}
+  
+#rating {
+    direction: rtl;
+    text-align: left;
+}
+
+textarea {
+    resize: none;
+}

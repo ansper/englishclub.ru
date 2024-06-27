@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.description {
+    font-size: 1.5rem;
+    color: #333;
+    font-weight: bold;
+    font-family: Montserrat;
+    line-height: 1.3;
+    margin: 20px 0;
+}
+
+.text {
+    font-size: 1rem;
+    color: #232323;
+    font-family: Montserrat;
+    line-height: 2;
+}
+
+b {
+    font-size: 1.125rem;
+    font-weight: bold;
+    line-height: 3;
+}
+
+.words {
+    font-size: 1.25rem;
+    color: #232323;
+    font-family: Montserrat;
+    line-height: 2;
+}
+
+
+.goTest {
+    margin: 3rem 0;
+}
+
+.goTest a {
+    padding: .5rem 1rem;
+    border: 1px solid #9E1430;
+    border-radius: 10px;
+    font-size: 1.25rem;
+    color: #9E1430;
+    font-family: Montserrat;
+}
+
+label {
+    font-size: 1.5rem;
+    color: #232323;
+    font-family: Montserrat;
+    line-height: 2;
+}
+
+.question {
+    font-size: 1.75rem;
+    color: #232323;
+    font-family: Montserrat;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.goEnd {
+    font-size: 1.5rem;
+    font-family: Montserrat;
+    padding: .5rem 1rem;
+    background: none;
+    color: #9E1430;
+    border-radius: 10px;
+    border: 1px solid #9E1430;
+    margin-bottom: 50px;
+    cursor: pointer;
+}

@@ -1,0 +1,137 @@
+/* ++++ IMPORT ++++ */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+nav {
+    margin-bottom: 4rem;
+}
+
+.filters {
+    display: flex;
+    flex-direction: column;
+}
+
+.filters h3 {
+    font-size: 1.25rem;
+    font-family: Montserrat;
+    font-weight: 500;
+}
+
+.filters label {
+    margin-top: .75rem;
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    color: #333;
+    font-family: Montserrat;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+.checkbox {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background-color: none;
+    border-radius: 3px;
+    margin-right: .5rem;
+    border: 1px solid #C94A64;
+}
+
+.checkbox.checked {
+    background-color: #eb2113; /* Цвет флажка при отметке */
+}
+
+input[type="checkbox"]:checked + .checkbox:before {
+    content: '\2713'; /* Галочка Unicode */
+    display: block;
+    width: 18px;
+    height: 18px;
+    color: red; /* Цвет галочки */
+    text-align: center;
+    line-height: 20px;
+}
+
+.top__filter {
+    margin: 2rem 0;
+}
+
+.filter-button {
+    background: #EFEFFF;
+    color: #4F4F4F;
+    font-size: 1rem;
+    font-family: Montserrat;
+    padding: .3125rem 1.25rem;
+    border: none;
+    border-radius: .25rem;
+    cursor: pointer;
+}
+
+.filter-button:not(:last-child) {
+    margin-right: 1rem;
+}
+
+.catalog {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.catalog__block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 30rem;
+    padding: 2.5rem;
+    margin-bottom: 5rem;
+    margin-right: 10rem;
+}
+
+.catalog__block h3 {
+    max-width: 21rem;
+    color: #232323;
+    font-size: 1.75rem;
+    font-family: Montserrat;
+    font-weight: bold;
+    margin-bottom: 1.25rem;
+    line-height: 1.2;
+}
+
+.catalog__block span {
+    color: #585858;
+    font-size: 1rem;
+    font-family: Montserrat;
+    margin-bottom: .3125rem;
+}
+
+.catalog__block span b {
+    font-weight: bold;
+}
+
+.catalog__block__bottom {
+    margin-top: 1.25rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.catalog__block__bottom a {
+    font-size: 1rem;
+    font-family: Montserrat;
+    font-weight: bold;
+    color: #9E1430;
+}
+
+.catalog__block__bottom span {
+    font-size: 1.25rem;
+}
+
+.filter-button-active {
+    background: #9E1430;
+    color: white;
+}
+
+.hidden {
+    display: none;
+}

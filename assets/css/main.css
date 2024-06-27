@@ -1,0 +1,244 @@
+/* ++++ IMPORT ++++ */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* ++++ variables ++++ */
+
+:root {
+    --button-on-page: #9E1430;
+}
+
+/* ++++ Intro ++++ */
+
+.intro {
+    padding: 5rem 0 0;
+    position: relative;
+    margin-bottom: 7.5rem;
+}
+
+.intro h2 {
+    max-width: 40rem;
+}
+
+.intro p {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    max-width: 35rem;
+    font-size: 1rem;
+    color: #828282;
+    font-weight: bold;
+    font-family: Montserrat;
+    line-height: 2;
+}
+
+.intro a {
+    padding: 1rem 3.75rem;
+    background: var(--button-on-page);
+    color: white;
+    border-radius: .5rem;
+    font-family: Montserrat;
+}
+
+.intro img {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+}
+
+/* ++++ Courses ++++ */
+
+.courses {
+    margin-bottom: 60px;
+}
+
+.courses__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 2rem;
+}
+
+.courses__header h2 {
+    max-width: 50rem;
+}
+
+.courses__body {
+    display: flex;
+}
+
+.course__block:not(:last-child) {
+    margin-right: 2.5rem;
+}
+
+.course__block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 20rem;
+    padding: 2.5rem;
+}
+
+.course__block h3 {
+    max-width: 20rem;
+    color: #232323;
+    font-size: 1.625rem;
+    font-family: Montserrat;
+    margin-bottom: 1.25rem;
+    line-height: 1.2;
+}
+
+.course__block span {
+    color: #585858;
+    font-size: 1rem;
+    font-family: Montserrat;
+    margin-bottom: .3125rem;
+}
+
+.course__block span b {
+    font-weight: bold;
+}
+
+.course__block__bottom {
+    margin-top: 1.25rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.course__block__bottom a {
+    font-size: 1rem;
+    font-family: Montserrat;
+    font-weight: bold;
+    color: #9E1430;
+}
+
+.course__block__bottom span {
+    font-size: 1.25rem;
+}
+
+/* ++++ Reviews ++++ */
+
+.reviews {
+    margin-bottom: 9rem;
+}
+
+.reviews__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 4rem;
+}
+
+.reviews__body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.reviews__body__text h3 {
+    font-size: 1.875rem;
+    font-weight: bold;
+    font-family: Montserrat;
+    margin-bottom: 1rem;
+}
+
+.reviews__block {
+    padding: 2.625rem 2.5rem;
+    background: #FDEDE4;
+}
+
+/* ++++ Reg ++++ */
+
+.reg {
+    display: flex;
+    justify-content: space-between;
+    background: #EFEFFF;
+    border-radius: 2.5rem;
+    padding: 5rem 6.25rem;
+    margin-bottom: 7.5rem;
+}
+
+.reg__text {
+    max-width: 37.5rem;
+}
+
+.reg__text h2 {
+    margin-bottom: 2.5rem;
+}
+
+.reg__text a {
+    padding: .75rem 1.25rem;
+    background: var(--button-on-page);
+    border-radius: .5rem;
+    color: white;
+    font-family: Montserrat;
+    font-size: 1rem;
+}
+
+/* ++++ News ++++ */
+
+.news {
+    margin-bottom: 7.5rem;
+}
+
+.news__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 3.75rem;
+}
+
+.news__header h2 {
+    max-width: 35rem;
+}
+
+.news__body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.news__block {
+    padding: 2.5rem;
+    border: 1px solid #EFEFFF;
+    border-radius: 1.25rem;
+}
+
+.news__block h3 {
+    max-width: 20rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: Montserrat;
+    color: #232323;
+    line-height: 1.2;
+    margin-bottom: .5rem;
+}
+
+.news__block span {
+    font-size: 1rem;
+    font-weight: normal;
+    font-family: Montserrat;
+    color: #2E90D1;
+    margin-bottom: .5rem;
+}
+
+.news__block p {
+    max-width: 17rem;
+    font-size: 1rem;
+    font-weight: normal;
+    font-family: Montserrat;
+    color: #585858;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    line-height: 1.2;
+    margin-bottom: .75rem;
+}
+
+.news__block__bottom a {
+    padding: .3125rem 1.25rem;
+    background: #EFEFFF;
+    color: #333;
+    font-family: Montserrat;
+}

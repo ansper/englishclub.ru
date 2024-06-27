@@ -1,0 +1,94 @@
+/* ++++ IMPORT ++++ */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    margin-bottom: 4rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+    color: #232323;
+    font-family: Montserrat;
+    font-weight: 500;
+}
+
+label input {
+    margin: .75rem 0;
+    width: 25rem;
+    background: none;
+    border: 2px solid #9E1430;
+    border-radius: .5rem;
+    padding: 1.125rem;
+}
+
+label input::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #BDBDBD;
+    font-family: Montserrat;
+    font-size: 1rem;
+}
+label input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #BDBDBD;
+   opacity:  1;
+   font-family: Montserrat;
+   font-size: 1rem;
+}
+label input::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #BDBDBD;
+   opacity:  1;
+   font-family: Montserrat;
+   font-size: 1rem;
+}
+label input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #BDBDBD;
+   font-family: Montserrat;
+   font-size: 1rem;
+}
+label input::-ms-input-placeholder { /* Microsoft Edge */
+   color:    #BDBDBD;
+   font-family: Montserrat;
+   font-size: 1rem;
+}
+label input::placeholder { /* Most modern browsers support this now. */
+   color:    #BDBDBD;
+   font-family: Montserrat;
+   font-size: 1rem;
+}
+
+input[type="submit"] {
+    margin-top: 1.5rem;
+    width: 27.5rem;
+    background: #9E1430;
+    border: none;
+    color: white;
+    border-radius: .5rem;
+    padding: 1.125rem;
+    font-family: Montserrat;
+}
+
+form span {
+    width: 27.5rem;
+    font-family: Montserrat;
+    line-height: 1.2;
+}
+
+.swap {
+    margin-top: 1rem;
+    font-family: Montserrat;
+}
+
+.swap a {
+    color: #9E1430;
+}
